@@ -34,10 +34,10 @@ This project implements a reinforcement learning (RL) environment and training p
    ```
    Models and logs will be saved in `models/` and `logs/` respectively.
 
-4 **Tensorboard :**
+ 4. **Tensorboard :**
    ```sh
-%load_ext tensorboard
-%tensorboard --logdir /your/log/dir/here #<------ add ur log directory path here.
+  %load_ext tensorboard
+  %tensorboard --logdir /your/log/dir/here #<------ add ur log directory path here.
    ```
   This loads the Tensoboard.
 
