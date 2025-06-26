@@ -36,8 +36,8 @@ This project implements a reinforcement learning (RL) environment and training p
 
  4. **Tensorboard :**
    ```sh
-  %load_ext tensorboard
-  %tensorboard --logdir /your/log/dir/here #<------ add ur log directory path here.
+    %load_ext tensorboard
+    %tensorboard --logdir /your/log/dir/here #<------ add ur log directory path here.
    ```
   This loads the Tensoboard.
 
