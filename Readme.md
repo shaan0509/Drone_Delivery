@@ -34,6 +34,14 @@ This project implements a reinforcement learning (RL) environment and training p
    ```
    Models and logs will be saved in `models/` and `logs/` respectively.
 
+4 **Tensorboard :**
+   ```sh
+%load_ext tensorboard
+%tensorboard --logdir /your/log/dir/here #<------ add ur log directory path here.
+   ```
+  This loads the Tensoboard.
+
+
 ## Custom Environment
 
 The core environment is [`DroneDeliveryEnv`](src/envs/drone_delivery_env.py), which simulates the assignment of drones to deliver packages to customers under constraints like capacity, range, and delivery sequence.
