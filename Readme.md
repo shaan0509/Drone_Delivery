@@ -14,7 +14,6 @@ This project implements a reinforcement learning (RL) environment and training p
 - [`data/`](data/): Generated datasets (ignored by git).
 - [`models/`](models/): Saved RL models (ignored by git).
 - [`logs/`](logs/): Training logs and TensorBoard files (ignored by git).
-- [`notebooks/`](notebooks/): Jupyter notebooks for analysis (optional).
 
 ## Setup
 
@@ -46,4 +45,4 @@ The core environment is [`DroneDeliveryEnv`](src/envs/drone_delivery_env.py), wh
 
 ## License
 
-This project is for academic and research purposes.
+This project is for academic and research purposes and made as a project during my Internship in Indian Institute of Technology (ISM) Dhanbad.
